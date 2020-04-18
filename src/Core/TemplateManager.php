@@ -5,7 +5,6 @@
 	class TemplateManager
 	{
 
-
 		public function getTemplateComputed(Template $tpl, array $data){
 
         		if (!$tpl) {
