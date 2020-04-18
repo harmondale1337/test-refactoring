@@ -1,26 +1,25 @@
 emitter:
 
   default:
-        content:  
-                - "Evaneos.com"  
-                - "URL : [site:url]"
-                - "01 48 82 00 27"
-        infos:
-                name: "No-Reply Evaneos"
-                mail: "no-reply@evaneos.com"
+    content:  
+      - "Evaneos.com"  
+      - "URL : [site:url]"
+      - "01 48 82 00 27"
+    infos:
+      name: "No-Reply Evaneos"
+      mail: "no-reply@evaneos.com"
 
 mail:
 
   thanks:
     en:
-        subject: "Your travel with a local agency to [destination:countryName]"
-        content: "Hi [user:firstname],\nThank you for contacting a local agent regarding your travel to [destination:countryName]\nBest regards, \n\n"
-        signature: "default"
-
+      subject: "Your travel with a local agency to [destination:countryName]"
+      content: "Hi [user:firstname],\nThank you for contacting a local agent regarding your travel to [destination:countryName]\nBest regards, \n\n"
+      signature: "default"
     fr:
-        subject: "Votre voyage avec une agence locale pour [destination:countryName]"
-        content: "Bonjour [user:firstname],\nMerci d'avoir contacté un agent local pour votre voyage [destination:countryName]\nBien cordialement, \n\n"
-        signature: "default" 
+      subject: "Votre voyage avec une agence locale pour [destination:countryName]"
+      content: "Bonjour [user:firstname],\nMerci d'avoir contacté un agent local pour votre voyage [destination:countryName]\nBien cordialement, \n\n"
+      signature: "default" 
 
 
   welcome:
@@ -28,7 +27,6 @@ mail:
       subject: "Account validated"
       content: "Hi [user:firstname], \nYour account has been validated by our administrator.\nBest regards, \n\n"
       signature: "default"
-
     fr:
       subject: "Votre compte a été validé"
       content: "Bonjour [user:firstname], votre compte a été validé par un administrateur.\nBien cordialement, \n\n"
