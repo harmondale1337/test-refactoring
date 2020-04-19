@@ -9,15 +9,14 @@
  *
  */
 Class TemplateGenerator{
-
-
+	
     /**
      * @var private $toSend : array
      * returns the mail's subject, content and headers 
      *
      */
     private $toSend = [];
-
+	
     /**
      * Class constructor
      */
@@ -26,7 +25,6 @@ Class TemplateGenerator{
         $this->parsed = $parsed;
 		
     }
-
 		
     /**
      * Fetches the targeted datas in the template YAML file and add signature if it exists
@@ -36,8 +34,6 @@ Class TemplateGenerator{
         if($origin === ''){
             $origin = 'mail';
         }
-
-			
         // Verifies if all the informations exists 
         self::structureVerification($this->parsed,$origin,$keyword,$lang);
 
@@ -58,7 +54,6 @@ Class TemplateGenerator{
         return $toSend;
     
     }
-
 
     /**
      * Switches headers to apply html or plain text Content-Type if HTML special characters are found in the content
@@ -83,7 +78,6 @@ Class TemplateGenerator{
         return $headers;
 
     }
-
 
     /**
      * Verify if the keys provided exists and does not contain empty values 
@@ -116,6 +110,5 @@ Class TemplateGenerator{
         }
 						
     }
-
 
 }
