@@ -107,7 +107,7 @@ Many things, but here is a short list :
 
 ## What were the difficulties encoutered during the project ? 
 
-**Expected result was very blur which means : ** 
+**Expected result was very blur which means :** 
 
 - Don't know what is the supposed size of the project (is it just a small part to quickly send mail, or is it a big feature that will be used really often by the future ?)
 - Don't know when to really stop to improve the project (as the concrete refactoring is done in 1 hour, but it still misses many improvments to make the entire project more clear, and error handling can be more and more securized)
