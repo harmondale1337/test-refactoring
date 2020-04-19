@@ -22,9 +22,6 @@ Class TemplateManager
 
     }
 
-
-
-
     private function computeText($text, array $data){
 
         $APPLICATION_CONTEXT = ApplicationContext::getInstance();
